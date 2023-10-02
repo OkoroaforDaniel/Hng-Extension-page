@@ -17,7 +17,7 @@ const Video = () => {
         `https://hng-be-t5.onrender.com/videos/uploads/`
       );
       console.log(data);
-      const RecentData = data[data.length - 1];
+      const RecentData = data[data.length - 2];
       console.log(RecentData);
       const videoUrl = RecentData.hostFileUrl;
       setMediaBlobUrl(videoUrl);
