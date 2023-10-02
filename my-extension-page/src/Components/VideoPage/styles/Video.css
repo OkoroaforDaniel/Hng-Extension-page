@@ -1,0 +1,141 @@
+.videoDiv{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+.video{
+    width: 575px;
+    height: 473px;
+    border-radius: 10px;
+}
+/* .MyVideo{
+    box-shadow: 0 0 10px rgba(7, 7, 7, 0.3);
+    border-radius: 10px;
+} */
+.SaveDiv{
+    text-align: center;
+    background-color: #E7E7ED33;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    /* margin-left: -100px; */
+}
+.SaveP{
+    color: #141414;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.24px;
+    /* text-align: center; */
+    /* width: 653px; */
+    height: 60px;
+}
+.saveButt{
+    background-color: #120B48;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+.subPDiv{
+    color: #7E7E7E;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.24px;
+}
+.acc{
+    color: #120B48;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.24px;
+}
+.link h1{
+        color: #141414;
+        font-weight: 700;
+        font-size: 45px;
+}
+.NameP{
+    color: #727272;
+    font-weight: 500;
+    font-size: 16px;
+}
+.LinkP{
+    color: #413C6D;
+    font-weight: 600;
+    font-size: 24px;
+}
+.emailInput{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #E7E7ED;
+    border: none;
+    width: 500px;
+}
+.Send{
+    background-color: #605C84;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 8px;
+    border: none;
+    margin-left: -70px;
+    margin-top: 5px;
+    position: absolute;
+    /* float: right; */
+}
+.VideoP{
+    color: #141414;
+    font-weight: 600;
+    font-size: 20px;
+}
+.copyP{
+    background-color: #FAFAFA;
+    padding: 12px;
+    width: 500px;
+    height: 25px;
+    border-radius: 10px;
+    border: #929292 solid 0.5px;
+    display: flex;
+}
+.copyP p{
+    margin-top: 0px;
+    color: #4B4B4B;
+}
+.copy{
+    border: #120B48 solid 1px;
+    margin-top: -5px;
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    padding-bottom: 25px;
+    color: #120B48;
+}
+.shareP{
+    color: #08051E;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.FWT span{
+    border: #0A0628 solid 1px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.FWT{
+    margin-top: 30px;
+}
+.FWT span .facebook{
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+.FWT span .telegram{
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+.FWT span .whatsapp{
+    margin-bottom: -5px;
+    margin-right: 5px;
+}

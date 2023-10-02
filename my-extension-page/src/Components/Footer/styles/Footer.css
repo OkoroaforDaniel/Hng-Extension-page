@@ -1,0 +1,51 @@
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #120B48;
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 90px;
+}
+.Div1{
+    /* margin-left: 100px; */
+    display: flex;
+}
+.Div1 p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.Div2 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.77px;
+}
+.Div2 h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+.Div3 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.77px;
+}
+.Div3 h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+.Div4 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.77px;
+}
+.Div4 h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
