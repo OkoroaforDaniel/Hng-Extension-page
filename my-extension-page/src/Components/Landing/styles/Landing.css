@@ -214,3 +214,52 @@ button:hover{
     height: 454px;
     border-radius: 8px;
 }
+.HIW{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+.HIW h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.subHIW{
+    display: flex;
+    justify-content: space-between;
+}
+.num1, .num2, .num3{
+    text-align: center;
+    background-color: #120B48;
+    width: 40px;
+    height: 40px;
+    color: white;
+    /* padding-top: 10px; */
+    margin-left: 40%;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+}
+.numDiv h4{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+
+}
+.numDiv p{
+    height: 120px;
+    color: #616163;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30.26px;
+}
+.numDiv{
+    width: 320px;
+    height: 260px;
+    margin-bottom: 150px;
+}
+.rec{
+    width: 320px;
+}

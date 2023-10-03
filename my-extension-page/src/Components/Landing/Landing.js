@@ -10,6 +10,7 @@ import Icon4 from './Images/Icon placeholder (2).png';
 import Icon5 from './Images/Icon placeholder.png';
 import Icon6 from './Images/Video Repository.png';
 import Icon7 from './Images/woman-using-smartphone-technology 2.png';
+import rec from './Images/rec-1.cb7888a47e24214aeb105805426a8300.svg.png';
 import './styles/Landing.css';
 import Footer from '../Footer/Footer';
 import NavBar from '../NavBar/NavBar';
@@ -96,26 +97,32 @@ const Landing = () => {
                 </div>
             </div>
         </div>
-        {/* <hr id='line3'/> */}
+        <hr id='line2'/>
 
-        {/* <div>
+        <div className='HIW'>
             <h2>How it Works</h2>
-            <div>
-                <div>
-                    <div>1</div>
+            <div className='subHIW'>
+                <div className='numDiv'>
+                    <div className='num1'>1</div>
                     <h4>Record Screen</h4>
                     <p>Click the "Start Recording" button in our extension.  choose which part of your screen to capture and who you want to send it to.</p>
+                    <img className="rec" src={rec} alt='rec' />
                 </div>
 
-                <div>
-
+                <div className='numDiv'>
+                <div className='num2'>2</div>
+                    <h4>Record Screen</h4>
+                    <p>We generate a shareable link for your video. Simply send it to your audience via email or copy the link to send via any platform..</p>
+                    <img className="rec" src={rec} alt='rec' />
                 </div>
-
-                <div>
-
+                <div className='numDiv'>
+                    <div className='num3'>3</div>
+                    <h4>Record Screen</h4>
+                    <p>Recipients can access your video effortlessly through the provided link, with our user-friendly interface suitable for everyone.</p>
+                    <img className="rec" src={rec} alt='rec' />
                 </div>
             </div>
-        </div> */}
+        </div>
         <Footer />
     </div>
   )
